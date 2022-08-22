@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    let hide = JSON.parse(localStorage.getItem('reddit-filterFlair-hides')||'[]');
+    let hide = JSON.parse(localStorage.getItem('reddit-filterFlair-hides')||'[Funny/Memes]');
 
     Array.from(document.querySelectorAll('#siteTable > .thing')).forEach(thing => {
         let flairEl = thing.querySelector('.linkflairlabel');
