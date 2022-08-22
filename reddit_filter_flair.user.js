@@ -5,7 +5,6 @@
 // @version      1.0
 // @author       LenAnderson
 // @match        https://www.reddit.com/*
-// @match        https://www.reddit.com
 // @grant        GM_registerMenuCommand
 // @grant        GM_unregisterMenuCommand
 // ==/UserScript==
